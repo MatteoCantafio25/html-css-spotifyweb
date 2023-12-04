@@ -8,6 +8,7 @@
 /* Generics */
 body {
     margin-left: 50px;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
 }
 
 a {
@@ -29,6 +30,31 @@ header {
     background-color: #080B12;
     min-height: 70px;
     color: white;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.upgrade {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.btn-white {
+    color: white;
+    margin: 15px 0;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.btn {
+    padding: 10px 30px;
+    display: inline-block;
+    max-height: 60px;
 }
 
 
