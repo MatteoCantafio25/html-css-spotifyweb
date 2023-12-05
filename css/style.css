@@ -33,6 +33,50 @@ a {
     font-size: 10px;
 }
 
+.cl-white {
+    color: white;
+}
+
+.cl-grey {
+    color: #7A7D81;
+}
+
+.txt-al {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.b-rad-50 {
+    border-radius: 50%;
+}
+
 /* Header */
 header {
     background-color: rgba(8, 11, 18, 0.8);
@@ -102,6 +146,54 @@ main {
 .categories a {
     font-size: 14px;
 }
+
+/* Cards */
+
+.title-container {
+    max-width: 410px;
+    margin: 0 auto;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card {
+    flex-basis: calc(100% / 2 - 200px);
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.heavy-metal {
+    height: 283px;
+    width: 200px;
+}
+
+.card-jhon img {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.card-container-jhon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
 
 /* Sidebar */
 .sidebar {
