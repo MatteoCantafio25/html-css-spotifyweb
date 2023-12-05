@@ -35,9 +35,12 @@ a {
 
 /* Header */
 header {
-    background-color: #080B12;
+    background-color: rgba(8, 11, 18, 0.8);
     min-height: 100px;
     color: white;
+
+    position: sticky;
+    top: 0;
 }
 
 .flex-container {
@@ -45,6 +48,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-bottom: 20px;
 }
 
 .upgrade {
@@ -70,20 +74,43 @@ header {
 /* Main */
 main {
     background-color: #141922;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
     overflow: auto;
+    display: flex;
+}
+
+.content {
+    background-color: #141922;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+/* Categorie */
+.categories {
+    max-width: 510px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    line-height: 35px;
+}
+
+.categories a {
+    font-size: 14px;
 }
 
 /* Sidebar */
 .sidebar {
-    height: calc(100vh - 100px);
+
     width: 50px;
+    flex-shrink: 0;
     background-color: black;
-    overflow-x: hidden;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
+
+
     padding: 5px 5px;
 
     display: flex;
@@ -128,7 +155,7 @@ main {
 
 footer {
     background-color: #282828;
-    min-height: 100px;
+    height: 100px;
 }
 
 .song-container {
