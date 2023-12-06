@@ -69,6 +69,10 @@
         margin-top: 30px;
     }
 
+    .categories {
+        max-width: 410px;
+    }
+
     .categories a {
         padding-right: 20px;
     }
