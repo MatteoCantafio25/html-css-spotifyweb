@@ -1,6 +1,6 @@
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 675px) {
     .sidebar {
-        width: 200px;
+        width: 250px;
         align-items: flex-start;
         padding: 5px 15px;
     }
@@ -91,4 +91,69 @@
         padding-left: 5px;
     }
 
+    .card-container {
+        max-width: 580px;
+        margin: 0 auto
+    }
+
+    .title-container {
+        max-width: 410px;
+        margin: 0 auto
+    }
+
+    .img-container:hover .play-h {
+        display: block;
+    }
+
+    .img-container:hover {
+        opacity: 0.7;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    .categories {
+        max-width: 630px;
+        margin: 0 auto;
+    }
+
+    .card-container {
+        max-width: 630px;
+        margin: 0 auto;
+        justify-content: flex-start;
+    }
+
+    .title-container {
+        max-width: 630px;
+        margin: 0 auto;
+    }
+
+    .card {
+        flex-basis: calc(100% / 4 - 150px);
+        height: 280px;
+    }
+
+    .card img {
+        width: 150px;
+        height: 150px;
+        display: block;
+    }
+
+    .heavy-metal {
+        width: 150px;
+        height: 150px;
+        display: block;
+    }
+
+    .card-container-jhon {
+        max-width: 630px;
+        margin: 0 auto;
+        justify-content: flex-start;
+    }
+
+    .card-jhon img {
+        width: 150px;
+        height: 150px;
+        display: block;
+    }
 }
